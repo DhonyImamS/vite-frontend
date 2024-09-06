@@ -1,0 +1,14 @@
+{
+  "name": "ui_tests",
+  "version": "1.0.0",
+  "description": "UI Test using Testcafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx testcafe chrome ./tests/**/*.js"
+  },
+  "author": "DhonyImamS",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^3.6.2"
+  }
+}
